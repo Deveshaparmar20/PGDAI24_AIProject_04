@@ -1,0 +1,73 @@
+.emotion-analyzer {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.emotion-analyzer h2 {
+  text-align: center;
+  color: #0074E1;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.file-upload-label, .text-input-label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="file"], textarea {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f5f8fa;
+  color: #333;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+input[type="file"]:focus, textarea:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.analyze-button {
+  padding: 0.85rem;
+  background-color: #0074E1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.analyze-button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+.result-section {
+  margin-top: 1.5rem;
+  padding: 1.2rem;
+  background: rgba(240, 248, 255, 0.9);
+  border-radius: 12px;
+  color: #333;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}

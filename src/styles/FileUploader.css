@@ -1,0 +1,40 @@
+.file-uploader {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 1.5rem auto;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .file-uploader h3 {
+    color: #0074E1;
+    font-weight: 600;
+  }
+  
+  .file-uploader input[type="file"] {
+    margin-top: 1rem;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .file-uploader button {
+    margin-top: 1rem;
+    background-color: #0074E1;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .file-uploader button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  

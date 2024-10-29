@@ -1,0 +1,16 @@
+.home {
+    padding: 2rem;
+    text-align: center;
+    color: #555;
+  }
+  
+  .home h2 {
+    color: #0074E1;
+    font-weight: 600;
+  }
+  
+  .home p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
